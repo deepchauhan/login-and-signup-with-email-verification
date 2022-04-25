@@ -8,6 +8,18 @@
 
 ### Installing & Running the Project :
 - Add a .env file to server folder for adding the required environment variables.
+- required format for .env file
+
+   - DB=mongodb+srv://<yourdatabasename>:<password>@cluster0.jei8n.mongodb.net/<clustername>?retryWrites=true&w=majority
+   - JWTPRIVATEKEY=YOUR PRIVATE KEY
+   - SALT=10
+   - BASE_URL=http://localhost:3000/
+   - HOST=smtp.gmail.com
+   - SERVICE=gmail
+   - EMAIL_PORT=587
+   - SECURE=true
+   - USER=your email
+   - PASS=your password
 
 
 ### Demo:
